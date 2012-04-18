@@ -58,19 +58,7 @@ function work_func(a:real):real;
 
 //------------------------------------------------
 
-function getIntegralSum(lastSum:real; from,too:real; n:integer):real;
-	var i:integer; h,res:real;
-	begin
-	h:=(too-from)/n;
-	res:=lastSum/DEL;
-	i:=1;
-	while (i<=n-1) do//for i:=1 to n-1 do
-		begin
-		res:=res+work_func(from+h*i)*h;
-		i:=i+2;
-		end;
-	getIntegralSum:=res;
-	end;
+//DELETE FUNCTION 'GET INTEGRAL SUM' | THIS IS VANDALISM!!
 
 //------------------------------------------------
 
@@ -91,6 +79,10 @@ begin
 
 importFromFile(from,too,y1,y2,e,n,'input.txt');
 
-
+//CHANGE OF INTEGRAL BRANCH
+//CHANGE OF INTEGRAL BRANCH
+//CHANGE OF INTEGRAL BRANCH
+//CHANGE OF INTEGRAL BRANCH
+//CHANGE OF INTEGRAL BRANCH
 
 end.
